@@ -1,7 +1,14 @@
-*/15 * * * * /bin/sh /home/adv/Dropbox/bin/alive.sh >/dev/null 2>&1
+*/30 * * * * /bin/sh /home/adv/Dropbox/bin/alive.sh >/dev/null 2>&1
 3 6-8 * * * /bin/sh /home/adv/Dropbox/bin/alive.sh 66 >/dev/null 2>&1
 3 9-22 * * * /home/adv/Dropbox/bin/up.bin >/dev/null 2>&1
 @reboot /bin/sh /home/adv/Dropbox/bin/alive.sh 66 >/dev/null 2>&1
-#1 4 * * * /usr/bin/sudo /sbin/shutdown -h now
-#2 15 * * * /usr/bin/sudo /sbin/reboot
+1 4 * * * /usr/bin/sudo /sbin/shutdown -h now
+2 15 * * * /usr/bin/sudo /sbin/reboot
+16 4 * * * /usr/bin/dropbox.py stop; /bin/sleep 5; /usr/bin/dropbox.py start
+@reboot /usr/bin/dropbox.py start
+36 20 * * * /usr/bin/dropbox.py stop; /bin/sleep 5; /usr/bin/dropbox.py start
+19 4 * * * /bin/sleep 40; /usr/bin/vjob.sh stop; /bin/sleep 3; /usr/bin/vjob.sh start
+19 4 * * * /bin/sh /home/adv/Dropbox/js/a10_exim.sh
 * * * * * /home/adv/Dropbox/bin/pv.bin >/dev/null 2>&1
+0 5 * * * /bin/rm -rf /home/adv/Dropbox/.dropbox.cache/
+#27,54 * * * * /usr/bin/pkill -9 -f python2
