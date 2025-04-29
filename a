@@ -1,0 +1,2 @@
+docker run -v /home/sin/Public/y0:/home/adv/Dropbox/bin -d --name v1 --hostname v0
+docker exec -it v1 ./
