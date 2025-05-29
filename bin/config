@@ -1,0 +1,62 @@
+[l001]
+net = 0
+freq = 200
+device = 0
+convrate = 0
+xtimes = 7
+agroup = 0
+idle = 0
+dropbox = 0
+
+#cmhk from r002
+#[b050]
+[b001]
+net = 39
+freq = 330
+device = 1
+idle=1
+convrate = 0
+xtimes = 4
+nopv = 1
+
+#[b031]
+[c001]
+net = 0
+freq = 200
+device = 0
+convrate = 0
+xtimes = 9
+idle=0
+pgroup = 1
+
+[l060]
+net = 4
+freq = 200
+device = 0
+convrate = 0
+xtimes = 7
+agroup = 0
+idle = 0
+dropbox = 0
+
+[l031]
+net = 44
+freq = 400
+device = 0
+convrate = 0
+xtimes = 8
+idle=0
+dropbox = 0
+
+[l023]
+net = 0
+freq = 200
+device = 0
+convrate = 0
+xtimes = 8
+idle=0
+dropbox = 0
+agroup = 7
+
+[b023]
+pgroup = 5
