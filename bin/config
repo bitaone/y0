@@ -100,7 +100,7 @@ pgroup = 13
 net = 1
 
 [b029]
-net = 39
+net = 38
 freq = 330
 device = 1
 idle=1
