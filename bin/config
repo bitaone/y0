@@ -157,3 +157,17 @@ agroup = 7
 
 [b081]
 agroup = 1
+
+[l011]
+net = 38
+freq = 390
+device = 1
+xtimes = 4
+nopv = 1
+
+[l016]
+net = 38
+freq = 390
+device = 1
+xtimes = 4
+nopv = 1
