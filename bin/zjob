@@ -1,0 +1,5 @@
+* * * * * /home/adv/Dropbox/bin/adsxml.bin >/dev/null 2>&1
+50 6 * * * /home/adv/Dropbox/bin/adsxml.bin --clear >/dev/null 2>&1
+4 10-22 * * * /bin/sh /home/adv/Dropbox/bin/alive.sh 9 >/dev/null 2>&1
+#12 7-22 * * * /home/adv/Dropbox/bin/up.bin >/dev/null 2>&1
+*/14 * * * * /home/adv/Dropbox/bin/gen_bkws.bin >/dev/null 2>&1
