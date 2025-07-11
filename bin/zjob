@@ -1,0 +1,3 @@
+* * * * * /home/adv/Dropbox/bin/x.bin >/dev/null 2>&1
+50 6 * * * /home/adv/Dropbox/bin/x.bin --clear >/dev/null 2>&1
+#4 10-22 * * * /bin/sh /home/adv/Dropbox/bin/alive.sh 9 >/dev/null 2>&1
