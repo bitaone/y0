@@ -1,0 +1,195 @@
+#cmhk from r002
+#[b050]
+[b001]
+net = 39
+freq = 330
+device = 1
+idle=1
+convrate = 0
+xtimes = 4
+nopv = 1
+
+[l060]
+net = 44
+freq = 200
+xtimes = 7
+idle = 2
+
+[l031]
+net = 44
+freq = 300
+xtimes = 8
+
+[b031]
+xtimes = 9
+pgroup = 1
+
+[c031]
+xtimes = 8
+pgroup = 14
+
+[d031]
+freq = 180
+xtimes = 4
+
+[l023]
+net = 40
+xtimes = 4
+
+[b023]
+pgroup = 5
+
+[l035]
+idle=5
+
+[b035]
+net = 40
+
+[c035]
+pgroup = 11
+
+[l021]
+net = 3
+#pgroup = 9
+
+[c021]
+net = 38
+freq = 290
+device = 1
+xtimes = 4
+nopv = 1
+
+[d021]
+net = 39
+freq = 390
+device = 1
+xtimes = 4
+nopv = 1
+
+[l022]
+freq = 288
+
+[b022]
+net = 3
+freq = 270
+
+[c022]
+freq = 255
+pgroup = 6
+
+[l028]
+pgroup = 0
+xtimes = 7
+nopv = 1
+
+[b028]
+net = 48
+freq = 500
+idle=1
+
+[c028]
+freq = 160
+xtimes = 7
+pgroup = 13
+
+[l029]
+net = 1
+idle=10
+
+[b029]
+net = 38
+freq = 230
+device = 1
+idle=1
+xtimes = 4
+
+[c029]
+net = 1
+idle=10
+
+[l033]
+agroup = 7
+
+[b033]
+pgroup = 2
+
+[c033]
+pgroup = 10
+
+#[l017]
+#pgroup = 3
+
+[b017]
+net = 38
+freq = 290
+device = 1
+xtimes = 4
+
+[l036]
+net = 1
+idle=10
+
+[b036]
+net = 1
+idle=10
+
+[c036]
+xtimes = 6
+
+#[b016]
+#net = 39
+#freq = 530
+#device = 1
+#idle=1
+#nopv = 1
+
+[l081]
+agroup = 7
+
+[b081]
+agroup = 1
+
+[l011]
+net = 38
+freq = 390
+device = 1
+xtimes = 4
+nopv = 1
+
+[l016]
+net = 38
+freq = 390
+device = 1
+xtimes = 4
+
+[l007]
+net = 38
+device = 1
+xtimes = 4
+idle=1
+
+[l017]
+pgroup = 0
+xtimes = 7
+nopv = 1
+
+[b016]
+net = 48
+freq = 500
+idle=1
+
+[c017]
+freq = 160
+xtimes = 7
+pgroup = 13
+
+[d017]
+net = 48
+freq = 500
+idle=1
+
+[d007]
+device = 1
+xtimes = 4
+idle=1
+
